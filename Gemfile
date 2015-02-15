@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rb-readline'
+gem 'httparty'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
