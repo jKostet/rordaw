@@ -15,6 +15,11 @@ class User < ActiveRecord::Base
 
   validates :password, format: { with: /\d.*[A-Z]|[A-Z].*\d/,  message: "has to contain one number and one upper case letter" }
 
+  def belongs_to_club? beer_club
+    list = BeerClub.all.select{ |x| not x.users.find_by username:self.username}
+    not list.include? beer_club
+  end
+
   def favorite_beer
     return nil if ratings.empty?
     ratings.order(score: :desc).limit(1).first.beer
@@ -31,6 +36,10 @@ class User < ActiveRecord::Base
     style_ratings = rated_styles.inject([]) { |set, style| set << [style, style_average(style) ] }
     style_ratings.sort_by{ |r| r.last }.last.first
   end
+
+  #def username
+  # :username
+  #end
 
   #private
 

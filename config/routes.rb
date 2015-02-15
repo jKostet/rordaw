@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   resource :session, only: [:new, :create, :delete]
 
   resources :beers
+  resources :styles
 
   resources :breweries
 
