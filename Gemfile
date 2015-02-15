@@ -57,6 +57,7 @@ group :test do
   gem 'capybara'
   gem 'launchy'
   gem 'simplecov', require: false
+  gem 'webmock'
 end
 
 # Use ActiveModel has_secure_password
