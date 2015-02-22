@@ -1,3 +1,13 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.roundedthing {
+  font-color: #ff070e; // miksei tää toimi?
+  font-style: italic;
+  //font-weight: bold;
+  border: 2px;
+  border-color: #000000;
+  border-radius: 25px;
+  padding: 5px;
+}
