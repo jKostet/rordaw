@@ -60,4 +60,10 @@ class User < ActiveRecord::Base
     ratings_of_brewery = ratings.select{ |r| r.beer.brewery==brewery }
     ratings_of_brewery.inject(0.0){ |sum, r| sum+r.score}/ratings_of_brewery.count
   end
+
+  def self.top(n)
+    sorted_by_rating_in_desc_order = Brewery.all.sort_by{ |b| -(b.average_rating||0) }
+    # palauta listalta parhaat n kappaletta
+    # miten? ks. http://www.ruby-doc.org/core-2.1.0/Array.html
+  end
 end

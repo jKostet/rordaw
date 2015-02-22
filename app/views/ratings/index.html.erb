@@ -26,3 +26,57 @@
 
 <%= link_to 'New Rating', new_rating_path, class:'btn btn-primary' if current_user %>
 
+<h1>Rating Statistics</h1>
+<p class="text-center"> Number of ratings: <span class="badge"> <%= @ratings.count %> </span> </p>
+
+<h2 class="text-center">Best Beers</h2>
+<%= render 'list', best: Beer.top(3) %>
+
+<h2 class="text-center">Best Breweries</h2>
+<%= render 'list', best: Brewery.top(3) %>
+
+<h2 class="text-center">Best Styles</h2>
+<%= render 'list', best: Style.top(3) %>
+
+<h2 class="text-center"> Most active users </h2>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Favourite Beer</th>
+        <th>Favourite Brewery</th>
+        <th>Favourite Style</th>
+        <th>Ratings</th>
+        <th colspan="5"></th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <% User.most_ratings(3).each do |user| %>
+          <tr>
+            <td><%= link_to user.username, user %></td>
+            <% if not user.favorite_beer.nil? %>
+                <td><%= link_to user.favorite_beer.name, user.favorite_beer%></td>
+            <% else %>
+                <td>none</td>
+            <% end %>
+            <% if not user.favorite_brewery.nil? %>
+                <td><%= link_to user.favorite_brewery.name, user.favorite_brewery %></td>
+            <% else %>
+                <td>none</td>
+            <% end %>
+            <% if not user.favorite_style.nil? %>
+                <td><%= link_to user.favorite_style.name, user.favorite_style %></td>
+            <% else %>
+                <td>none</td>
+            <% end %>
+            <td><%= user.ratings.count %></td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>
+<br>
