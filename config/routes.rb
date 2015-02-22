@@ -14,7 +14,9 @@ Rails.application.routes.draw do
   resources :beers
   resources :styles
 
-  resources :breweries
+  resources :breweries do
+    post 'toggle_activity', on: :member
+  end
 
   resources :ratings, only: [:index, :new, :create, :destroy]
 
