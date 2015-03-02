@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :styles
+
   resources :memberships
 
   resources :beer_clubs
@@ -15,8 +17,6 @@ Rails.application.routes.draw do
 
   
   resources :beers
-  resources :styles
-
   resources :breweries do
     post 'toggle_activity', on: :member
   end
