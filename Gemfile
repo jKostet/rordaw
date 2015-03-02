@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rb-readline'
 gem 'httparty'
+gem 'omniauth-github'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
@@ -39,7 +40,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 group :development, :test do
-  gem "better_errors"
+  # Better error pages with live console
+  gem 'better_errors'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

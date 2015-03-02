@@ -10,7 +10,10 @@ Rails.application.routes.draw do
   delete 'signout', to: 'sessions#destroy'
 
   resource :session, only: [:new, :create, :delete]
+  get 'auth/:provider/callback', to: 'sessions#create_oauth'
 
+
+  
   resources :beers
   resources :styles
 
@@ -23,6 +26,8 @@ Rails.application.routes.draw do
   resources :places, only:[:index, :show]
   get 'places', to: 'places#index'
   post 'places', to:'places#search'
+
+
 
 
 
