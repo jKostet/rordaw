@@ -8,6 +8,31 @@ class BreweriesController < ApplicationController
     @breweries = Brewery.all
     @active_breweries = Brewery.active
     @retired_breweries = Brewery.retired
+
+    order = params[:order] || 'name'
+    reverse = session[:reverse] || false
+
+    @active_breweries = case order
+                          when 'name' then
+                            if reverse then Brewery.active.order(:name).reverse
+                            else Brewery.active.order(:name)
+                            end
+                          when 'year' then
+                            if reverse then Brewery.active.order(:year).reverse
+                            else Brewery.active.order(:year)
+                            end
+                        end
+    @retired_breweries = case order
+                           when 'name' then
+                             if reverse then Brewery.retired.order(:name).reverse
+                             else Brewery.retired.order(:name)
+                             end
+                           when 'year' then
+                             if reverse then Brewery.retired.order(:year).reverse
+                             else Brewery.retired.order(:year)
+                             end
+                         end
+    session[:reverse] = (not reverse)
   end
 
   def toggle_activity

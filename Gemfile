@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rb-readline'
 gem 'httparty'
 gem 'omniauth-github'
+gem 'jquery-turbolinks'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
@@ -38,6 +40,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
+
+
 
 group :development, :test do
   # Better error pages with live console
