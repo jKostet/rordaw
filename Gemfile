@@ -4,7 +4,7 @@ gem 'rb-readline'
 gem 'httparty'
 gem 'omniauth-github'
 gem 'jquery-turbolinks'
-
+gem 'selenium-webdriver'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
@@ -70,6 +70,8 @@ group :test do
   gem 'launchy'
   gem 'simplecov', require: false
   gem 'webmock'
+  gem 'database_cleaner'
+
 end
 
 # Use ActiveModel has_secure_password
