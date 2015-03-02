@@ -37,5 +37,33 @@ describe "Beerlist page" do
     expect(page).to have_content "Nikolai"
   end
 
-  
+  it "shows beers in alphabetical order", :js => true do
+    visit beerlist_path
+
+    expect(find('table').find('tr:nth-child(2)')).to have_content "Fastenbier"
+    expect(find('table').find('tr:nth-child(3)')).to have_content "Lechte Weisse"
+    expect(find('table').find('tr:nth-child(4)')).to have_content "Fastenbier"
+  end
+
+  it "after clicking on style it orders items by style", js:true do
+    visit beerlist_path
+
+    click_button "Style"
+
+    expect(find('table').find('tr:nth-child(2)')).to have_content "Lager"
+    expect(find('table').find('tr:nth-child(3)')).to have_content "Rauchbier"
+    expect(find('table').find('tr:nth-child(4)')).to have_content "Weizen"
+  end
+
+  it "after clicking on brewery it orders items by brewery", js:true do
+    visit beerlist_path
+
+    click_button "Brewery"
+
+    expect(find('table').find('tr:nth-child(2)')).to have_content "Ayinger"
+    expect(find('table').find('tr:nth-child(3)')).to have_content "Koff"
+    expect(find('table').find('tr:nth-child(4)')).to have_content "Schlenkerla"
+  end
+
+
 end

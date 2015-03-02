@@ -26,31 +26,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="breweries_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/breweries_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="2124">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="nglist.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/beers/nglist.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/breweries/nglist.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.925926" vertical-offset="182" max-vertical-offset="810">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="738">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beerlist_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/features/beerlist_spec.rb">
+      <file leaf-file-name="beers_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/beers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71632653" vertical-offset="0" max-vertical-offset="980">
-              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2286">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="712" max-vertical-offset="1692">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9183673" vertical-offset="0" max-vertical-offset="1008">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/beers/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="648">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/beers/list.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -61,8 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/ratings/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/beer_club.rb" />
         <option value="$PROJECT_DIR$/app/models/membership.rb" />
         <option value="$PROJECT_DIR$/app/views/memberships/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/memberships_controller.rb" />
@@ -75,7 +103,6 @@
         <option value="$PROJECT_DIR$/app/views/memberships/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation_links.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/breweries/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/breweries/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/brewery.rb" />
@@ -92,17 +119,13 @@
         <option value="$PROJECT_DIR$/app/models/beer.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150302114649_rename_style_to_old_style.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150302122802_delete_old_style_from_beer.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/views/beers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/breweries/_list.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/breweries_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/ratings/index.json.jbuilder" />
-        <option value="$PROJECT_DIR$/app/views/beers/list.html.erb" />
         <option value="$PROJECT_DIR$/app/views/beers/index.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/beerlist.js" />
-        <option value="$PROJECT_DIR$/app/controllers/beers_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/beers/nglist.rb" />
         <option value="$PROJECT_DIR$/app/views/breweries/nglist.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -110,8 +133,15 @@
         <option value="$PROJECT_DIR$/app/models/rating.rb" />
         <option value="$PROJECT_DIR$/app/models/style.rb" />
         <option value="$PROJECT_DIR$/app/views/ratings/index.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/features/beerlist_spec.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150302190451_add_user_index_based_on_username.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/views/beers/list.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/beers/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/beers_controller.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
@@ -175,25 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RORDAW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rordaw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,7 +443,7 @@
     <property name="options.lastSelected" value="preferences.lookFeel" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/Gemfile&#10;spec&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/spec/features/beerlist_spec.rb&#10;style&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/style.rb&#10;beer&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/beer.rb&#10;ratin&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/rating.rb&#10;ratings/in&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/ratings/index.html.erb&#10;beers_&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/controllers/beers_controller.rb&#10;rout&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/config/routes.rb&#10;beers.json&#9;null&#9;null&#10;jbuilder&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/beers/index.json.jbuilder&#10;list&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/beers/list.html.erb&#10;beerlis&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/assets/javascripts/beerlist.js&#10;beers/ind&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/beers/index.json.jbuilder&#10;.js&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/assets/javascripts/application.js&#10;route&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/config/routes.rb&#10;produ&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/config/environments/production.rb&#10;styl&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/style.rb&#10;see&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/db/seeds.rb&#10;seeds&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/db/seeds.rb&#10;styles&#9;null&#9;null&#10;sty&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/style.rb&#10;beers/in&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/beers/index.html.erb&#10;gemfi&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/Gemfile&#10;_list&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/ratings/_list.html.erb&#10;appli&#9;null&#9;null&#10;na&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/layouts/_navigation_links.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="seeds&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/db/seeds.rb&#10;bee&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/controllers/beers_controller.rb&#10;breweries/li&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/breweries/nglist.html.erb&#10;brewe&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/controllers/breweries_controller.rb&#10;beers/i&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/beers/index.html.erb&#10;develop&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/config/environments/development.rb&#10;user.&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/user.rb&#10;gem&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/Gemfile&#10;beers&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/controllers/beers_controller.rb&#10;list&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/beers/list.html.erb&#10;beerlis&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/spec/features/beerlist_spec.rb&#10;spec&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/spec/features/beerlist_spec.rb&#10;style&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/style.rb&#10;beer&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/beer.rb&#10;ratin&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/rating.rb&#10;ratings/in&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/ratings/index.html.erb&#10;beers_&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/controllers/beers_controller.rb&#10;rout&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/config/routes.rb&#10;beers.json&#9;null&#9;null&#10;jbuilder&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/beers/index.json.jbuilder&#10;beers/ind&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/beers/index.json.jbuilder&#10;.js&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/assets/javascripts/application.js&#10;route&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/config/routes.rb&#10;produ&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/config/environments/production.rb&#10;styl&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/style.rb&#10;see&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/db/seeds.rb&#10;styles&#9;null&#9;null&#10;sty&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/models/style.rb&#10;beers/in&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/beers/index.html.erb&#10;gemfi&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/Gemfile&#10;_list&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/ratings/_list.html.erb&#10;appli&#9;null&#9;null&#10;na&#9;FILE&#9;file:///home/jkostet/KOODIS/WEPA/rordaw/app/views/layouts/_navigation_links.html.erb" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -630,22 +642,22 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.187062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871288" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -669,28 +681,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11612903" vertical-offset="0" max-vertical-offset="620">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/.keep">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ratings_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/concerns/rating_average.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
@@ -710,13 +700,6 @@
         <state vertical-scroll-proportion="0.083462134" vertical-offset="0" max-vertical-offset="647">
           <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44513136" vertical-offset="0" max-vertical-offset="1350">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -840,17 +823,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08083832" vertical-offset="0" max-vertical-offset="668">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20150302122802_delete_old_style_from_beer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.053892214" vertical-offset="0" max-vertical-offset="668">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -866,6 +843,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.053892214" vertical-offset="0" max-vertical-offset="668">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -893,13 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/breweries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83532935" vertical-offset="54" max-vertical-offset="2124">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/breweries/_list.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08424337" vertical-offset="0" max-vertical-offset="641">
@@ -911,13 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5054602" vertical-offset="0" max-vertical-offset="641">
           <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/beers/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14040561" vertical-offset="0" max-vertical-offset="641">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -949,14 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/beers/list.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2527301" vertical-offset="0" max-vertical-offset="641">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/breweries/show.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.026946107" vertical-offset="0" max-vertical-offset="668">
@@ -964,34 +920,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/beers_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6736527" vertical-offset="54" max-vertical-offset="1980">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/beer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30555555" vertical-offset="0" max-vertical-offset="648">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ratings/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23188406" vertical-offset="0" max-vertical-offset="1062">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/breweries/nglist.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9742351" vertical-offset="25" max-vertical-offset="738">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1022,24 +954,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/beers/nglist.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.925926" vertical-offset="182" max-vertical-offset="810">
+        <state vertical-scroll-proportion="0.58551943" vertical-offset="0" max-vertical-offset="953">
           <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150302190451_add_user_index_based_on_username.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="712" max-vertical-offset="1692">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.091836736" vertical-offset="0" max-vertical-offset="980">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ratings/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15110178" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/beerlist_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71632653" vertical-offset="0" max-vertical-offset="980">
-          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.5408163" vertical-offset="352" max-vertical-offset="1332">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05510204" vertical-offset="0" max-vertical-offset="980">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8121721" vertical-offset="0" max-vertical-offset="953">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4408163" vertical-offset="162" max-vertical-offset="1350">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16530612" vertical-offset="0" max-vertical-offset="1728">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/breweries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="2124">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/breweries/nglist.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="738">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/beers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="648">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/beers/list.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/beers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2286">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9183673" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
           <folding />
         </state>
       </provider>

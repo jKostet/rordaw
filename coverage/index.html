@@ -14,7 +14,7 @@
       <img src="./assets/0.9.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-03-02T20:28:34+02:00">2015-03-02T20:28:34+02:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-03-02T20:59:09+02:00">2015-03-02T20:59:09+02:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.67
+         0.93
        </span>
     </span> hits/line)
   </h2>
@@ -57,7 +57,7 @@
         <td>8</td>
         <td>6</td>
         <td>2</td>
-        <td>0.8</td>
+        <td>1.1</td>
       </tr>
       
       <tr>
@@ -67,7 +67,7 @@
         <td>48</td>
         <td>21</td>
         <td>27</td>
-        <td>0.5</td>
+        <td>0.9</td>
       </tr>
       
       <tr>
@@ -157,7 +157,7 @@
         <td>10</td>
         <td>9</td>
         <td>1</td>
-        <td>1.2</td>
+        <td>2.1</td>
       </tr>
       
       <tr>
@@ -203,7 +203,7 @@
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.54
+         0.93
        </span>
     </span> hits/line)
   </h2>
@@ -235,7 +235,7 @@
         <td>8</td>
         <td>6</td>
         <td>2</td>
-        <td>0.8</td>
+        <td>1.1</td>
       </tr>
       
       <tr>
@@ -245,7 +245,7 @@
         <td>48</td>
         <td>21</td>
         <td>27</td>
-        <td>0.5</td>
+        <td>0.9</td>
       </tr>
       
     </tbody>
@@ -259,8 +259,8 @@
     (<span class="covered_percent"><span class="red">77.27%</span></span>
      covered at
      <span class="covered_strength">
-       <span class="red">
-         0.85
+       <span class="green">
+         1.06
        </span>
     </span> hits/line)
   </h2>
@@ -302,7 +302,7 @@
         <td>10</td>
         <td>9</td>
         <td>1</td>
-        <td>1.2</td>
+        <td>2.1</td>
       </tr>
       
       <tr>
@@ -593,8 +593,8 @@
           <code class="ruby">  def current_user</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="4" data-linenumber="9">
+          <span class="hits">4</span>
           
           <code class="ruby">    return nil if session[:user_id].nil?</code>
         </li>
@@ -713,8 +713,8 @@
           <code class="ruby">  def index</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="10">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="4" data-linenumber="10">
+          <span class="hits">4</span>
           
           <code class="ruby">    @beers = Beer.all</code>
         </li>
@@ -725,8 +725,8 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="4" data-linenumber="12">
+          <span class="hits">4</span>
           
           <code class="ruby">    order = params[:order] || &#39;name&#39;</code>
         </li>
@@ -737,8 +737,8 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="14">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="4" data-linenumber="14">
+          <span class="hits">4</span>
           
           <code class="ruby">    @beers = case order</code>
         </li>
@@ -749,8 +749,8 @@
           <code class="ruby">               when &#39;name&#39; then</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="16">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="16" data-linenumber="16">
+          <span class="hits">16</span>
           
           <code class="ruby">                 @beers.sort_by { |b| b.name }</code>
         </li>
@@ -1775,8 +1775,8 @@
           <code class="ruby">  validates :name, presence: true</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="5">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="13" data-linenumber="5">
+          <span class="hits">13</span>
           
           <code class="ruby">  validates :year, numericality: { less_than_or_equal_to: -&gt;(_) { Time.now.year} }</code>
         </li>
